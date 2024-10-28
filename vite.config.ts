@@ -8,9 +8,9 @@ export default defineConfig({
     alias: [
       { find: '@', replacement: '/src' },
       { find: '@components', replacement: '/src/components' },
-      { find: '@headers', replacement: '/src/components/headers' },
-      { find: '@pages', replacement: '/src/pages' },
-      { find: '@common', replacement: '/src/common' },
+      { find: '@sections', replacement: '/src/components/sections' },
+      { find: '@shared', replacement: '/src/components/shared/' },
+      { find: '@models', replacement: '/src/models' },
     ],
   },
 })
