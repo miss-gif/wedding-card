@@ -1457,6 +1457,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@date-fns/tz@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "@date-fns/tz@npm:1.1.2"
+  checksum: 10c0/30c5e15f11ceb013fcba3fd05125571554b9a7cab4873c69969966f7ddb00ffa8c9277d2367012e72fd7a905e48a7252e1f914614532852f157d62b3f8d90034
+  languageName: node
+  linkType: hard
+
 "@esbuild/aix-ppc64@npm:0.21.5":
   version: 0.21.5
   resolution: "@esbuild/aix-ppc64@npm:0.21.5"
@@ -5566,6 +5573,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-day-picker@npm:^9.2.1":
+  version: 9.2.1
+  resolution: "react-day-picker@npm:9.2.1"
+  dependencies:
+    "@date-fns/tz": "npm:^1.1.2"
+    date-fns: "npm:^4.1.0"
+  peerDependencies:
+    react: ">=16.8.0"
+  checksum: 10c0/76b637337e852b0ebab60b16d70cc7f0ec57d0f8ae791ed9e1ce67029aa43a85b89b9f6b6560767cca4ab11641ed8eede7f6ec2aa9d3c5a06e23e9a20694552d
+  languageName: node
+  linkType: hard
+
 "react-dom@npm:^18.3.1":
   version: 18.3.1
   resolution: "react-dom@npm:18.3.1"
@@ -6570,6 +6589,7 @@ __metadata:
     json-server: "npm:^1.0.0-beta.3"
     prettier: "npm:^3.3.3"
     react: "npm:^18.3.1"
+    react-day-picker: "npm:^9.2.1"
     react-dom: "npm:^18.3.1"
     sass: "npm:^1.80.4"
     swiper: "npm:^11.1.14"

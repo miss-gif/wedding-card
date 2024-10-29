@@ -20,7 +20,7 @@ const Heading = ({ date }: { date: string }) => {
 
   return (
     <Section className={cx('container')}>
-      <div className={cx('text-date')}>{format(weddingDate, 'yy.mm.dd')}</div>
+      <div className={cx('text-date')}>{format(weddingDate, 'yyyy.MM.dd')}</div>
       <div className={cx('text-day')}>{DAYS[getDay(weddingDate)]}</div>
     </Section>
   )
