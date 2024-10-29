@@ -68,7 +68,7 @@ function App() {
         <Heading date={date} />
         <Video />
         <ImageGallery images={galleryImages} />
-        {JSON.stringify(wedding)}
+        {/* {JSON.stringify(wedding)} */}
       </div>
     </>
   )
