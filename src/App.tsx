@@ -11,6 +11,7 @@ import Invitation from './components/sections/Invitation'
 import Calender from './components/sections/Calender'
 import Map from './components/sections/Map'
 import Contact from './components/sections/Contact'
+import Share from './components/shared/Share'
 
 const cx = classNames.bind(styles)
 
@@ -91,7 +92,7 @@ function App() {
         <Calender date={date} />
         <Map location={location} />
         <Contact groom={groom} bride={bride} />
-        {/* {JSON.stringify(wedding)} */}
+        <Share groomName={groom.name} bridName={bride.name} date={date} />
       </div>
     </>
   )
