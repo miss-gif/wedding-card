@@ -4,6 +4,7 @@ import className from 'classnames/bind'
 import 'swiper/css'
 import styles from './ImageViewer.module.scss'
 import './swiper.css'
+import Dimmed from './../shared/Dimmed'
 
 const cx = className.bind(styles)
 
@@ -23,7 +24,7 @@ const ImageViewer = ({
   }
 
   return (
-    <div className={cx('dimmed')}>
+    <Dimmed>
       <CloseButton className={cx('btn-close')} onClose={onClose} />
       <Swiper
         spaceBetween={20}
@@ -39,7 +40,7 @@ const ImageViewer = ({
           )
         })}
       </Swiper>
-    </div>
+    </Dimmed>
   )
 }
 

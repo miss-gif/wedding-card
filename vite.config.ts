@@ -11,6 +11,7 @@ export default defineConfig({
       { find: '@sections', replacement: '/src/components/sections' },
       { find: '@shared', replacement: '/src/components/shared/' },
       { find: '@models', replacement: '/src/models' },
+      { find: '@contexts', replacement: '/src/contexts/' },
     ],
   },
 })
