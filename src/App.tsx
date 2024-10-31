@@ -21,6 +21,7 @@ function App() {
   const [wedding, setWedding] = useState<Wedding | null>(null)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState(false)
+  const [count, setCount] = useState(0)
 
   useEffect(() => {
     setLoading(true)
@@ -79,6 +80,15 @@ function App() {
 
   return (
     <>
+      <button
+        style={{
+          position: 'fixed',
+          padding: '10px',
+        }}
+        onClick={() => setCount(count + 1)}
+      >
+        {count} +
+      </button>
       <div className={cx('container')}>
         <Heading date={date} />
         <Video />

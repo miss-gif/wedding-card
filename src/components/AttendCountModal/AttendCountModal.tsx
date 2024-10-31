@@ -49,9 +49,7 @@ const AttendCountModal = ({ wedding }: { wedding: Wedding }) => {
         close()
       },
     })
-    console.log('AttendCountModal open')
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
+  }, [open, close, wedding, haveSeenModal])
 
   return null
 }

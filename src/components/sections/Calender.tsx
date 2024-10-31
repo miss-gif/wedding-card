@@ -6,6 +6,7 @@ import { ko } from 'date-fns/locale'
 
 import { DayPicker } from 'react-day-picker'
 import 'react-day-picker/style.css'
+import { memo } from 'react'
 
 const cx = classNames.bind(styles)
 
@@ -54,4 +55,4 @@ const Calender = ({ date }: { date: string }) => {
   )
 }
 
-export default Calender
+export default memo(Calender)
