@@ -86,8 +86,8 @@ const WayToCome = ({
     <div className={cx('wrap-waytocome')}>
       <span className={cx('text-label')}>{label}</span>
       <ul>
-        {list.map((waytocome) => (
-          <li>{waytocome}</li>
+        {list.map((waytocome, index) => (
+          <li key={index}>{waytocome}</li>
         ))}
       </ul>
     </div>

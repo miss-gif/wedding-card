@@ -6,13 +6,13 @@ import { format, getDay, parseISO } from 'date-fns'
 const cx = className.bind(styles)
 
 const DAYS = [
-  'Sunday',
-  'Monday',
-  'Tuesday',
-  'Wednesday',
-  'Thursday',
-  'Friday',
-  'Saturday',
+  'SUNDAY',
+  'MONDAY',
+  'TUESDAY',
+  'WEDNESDAY',
+  'THURSDAY',
+  'FRIDAY',
+  'SATURDAY',
 ]
 
 const Heading = ({ date }: { date: string }) => {
