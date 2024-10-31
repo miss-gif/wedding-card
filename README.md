@@ -1,6 +1,6 @@
 # 웹 청첩장
 
-- 작업기간 : YYYY.MM.DD - YYYY.MM.DD
+- 작업기간 : 2024.10.27 - 2024.11.01
 - 배포 : [배포 링크]()
 
 ## 목차
@@ -37,8 +37,8 @@
 
 **Lighthouse 측정 결과 개선**
 
-- FCP (First Contentful Paint) 3.7초 → `1.6초`
-- LCP (Largest Contentful Paint) 8.3초 → `5.6초`
+- FCP (First Contentful Paint) 3.7초 → `1.7초`
+- LCP (Largest Contentful Paint) 8.3초 → `3.7초`
 - Speed Index 3.7초 → `1.9초`
 
 - **폰트**: 프로젝트 내 폰트를 탑재, `woff2`>`woff`>`truetype` 적용으로 최적화
@@ -58,8 +58,21 @@
 
 ## 주요 기능
 
+- 인트로 동영상
+- 이미지 갤러리: swiper로 구성한 사진 슬라이드 기능
 - 청첩장 정보 제공: 결혼식 일시 및 장소 정보 제공
 - 지도 및 캘린더 기능: Kakao 지도 API와 캘린더를 사용해 위치와 일정을 확인 가능
-- 이미지 캐러셀: swiper로 구성한 사진 슬라이드 기능
+- 연락처 및 계좌 클립보드 기능
+- 카카오 링크 공유
 
 ## 화면 스크린샷
+
+![main](https://github.com/user-attachments/assets/dddf3bc8-e8ab-4bc2-b2f6-d47235ac29ba)
+
+###### 최적화 Before
+
+![스크린샷 2024-10-31 234812](https://github.com/user-attachments/assets/5153f245-1a2d-400e-af9a-8992dd3f6ca8)
+
+###### 최적화 After
+
+![스크린샷 2024-11-01 082604](https://github.com/user-attachments/assets/54e779f0-2582-4240-82a6-d44df52ce438)
