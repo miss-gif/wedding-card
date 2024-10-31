@@ -16,6 +16,7 @@
 - 캘린더 : `react-day-picker`를 사용해 캘린더 구현
 - 지도 : Kakao 지도 API 사용한 지도 구현
 - 데이터 페칭 : @tanstack/react-query
+- 에러처리 : ErrorBoundary 클레스 컴포넌트 사용
 
 ## 최적화 적용
 
