@@ -2127,6 +2127,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tanstack/query-core@npm:5.59.16":
+  version: 5.59.16
+  resolution: "@tanstack/query-core@npm:5.59.16"
+  checksum: 10c0/487a1ac0df5e02ca4ea5bf3b9ee0010ac7fe0856a36fa7bd10947598d3f0ba356c91aa21b123729b26f2116f05b8b69cd8fb17681c24cdd586de17b6fe021521
+  languageName: node
+  linkType: hard
+
+"@tanstack/react-query@npm:^5.59.16":
+  version: 5.59.16
+  resolution: "@tanstack/react-query@npm:5.59.16"
+  dependencies:
+    "@tanstack/query-core": "npm:5.59.16"
+  peerDependencies:
+    react: ^18 || ^19
+  checksum: 10c0/82acf170d2d169ad18081e4dc52bdcec3b92bd1b134bb704ab6949937a59fd4d7d4ddb1172dd7fdbd1667a2d2e0ffa118e68bde5f53972649b8e55bd0e87244c
+  languageName: node
+  linkType: hard
+
 "@tinyhttp/accepts@npm:2.2.3":
   version: 2.2.3
   resolution: "@tinyhttp/accepts@npm:2.2.3"
@@ -6610,6 +6628,7 @@ __metadata:
   resolution: "wedding-card@workspace:."
   dependencies:
     "@eslint/js": "npm:^9.13.0"
+    "@tanstack/react-query": "npm:^5.59.16"
     "@types/react": "npm:^18.3.11"
     "@types/react-copy-to-clipboard": "npm:^5.0.7"
     "@types/react-dom": "npm:^18.3.1"

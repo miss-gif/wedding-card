@@ -28,6 +28,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@eslint/js", "npm:9.13.0"],\
+          ["@tanstack/react-query", "virtual:986a6bc4af22e1fca94d1812d13925f20b7d040e67184e2a32e903bac5e993a3c354d148626bbf4038463a3efbb7b501d878dbc8327069ce4808dd0f30d49662#npm:5.59.16"],\
           ["@types/react", "npm:18.3.12"],\
           ["@types/react-copy-to-clipboard", "npm:5.0.7"],\
           ["@types/react-dom", "npm:18.3.1"],\
@@ -3491,6 +3492,38 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../AppData/Local/Yarn/Berry/cache/@rushstack-eslint-patch-npm-1.10.4-a760e177e3-10c0.zip/node_modules/@rushstack/eslint-patch/",\
         "packageDependencies": [\
           ["@rushstack/eslint-patch", "npm:1.10.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@tanstack/query-core", [\
+      ["npm:5.59.16", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/@tanstack-query-core-npm-5.59.16-038eb67125-10c0.zip/node_modules/@tanstack/query-core/",\
+        "packageDependencies": [\
+          ["@tanstack/query-core", "npm:5.59.16"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@tanstack/react-query", [\
+      ["npm:5.59.16", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/@tanstack-react-query-npm-5.59.16-39b7f2f1cf-10c0.zip/node_modules/@tanstack/react-query/",\
+        "packageDependencies": [\
+          ["@tanstack/react-query", "npm:5.59.16"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:986a6bc4af22e1fca94d1812d13925f20b7d040e67184e2a32e903bac5e993a3c354d148626bbf4038463a3efbb7b501d878dbc8327069ce4808dd0f30d49662#npm:5.59.16", {\
+        "packageLocation": "./.yarn/__virtual__/@tanstack-react-query-virtual-ab4bf7f645/3/AppData/Local/Yarn/Berry/cache/@tanstack-react-query-npm-5.59.16-39b7f2f1cf-10c0.zip/node_modules/@tanstack/react-query/",\
+        "packageDependencies": [\
+          ["@tanstack/react-query", "virtual:986a6bc4af22e1fca94d1812d13925f20b7d040e67184e2a32e903bac5e993a3c354d148626bbf4038463a3efbb7b501d878dbc8327069ce4808dd0f30d49662#npm:5.59.16"],\
+          ["@tanstack/query-core", "npm:5.59.16"],\
+          ["@types/react", "npm:18.3.12"],\
+          ["react", "npm:18.3.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8887,6 +8920,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["wedding-card", "workspace:."],\
           ["@eslint/js", "npm:9.13.0"],\
+          ["@tanstack/react-query", "virtual:986a6bc4af22e1fca94d1812d13925f20b7d040e67184e2a32e903bac5e993a3c354d148626bbf4038463a3efbb7b501d878dbc8327069ce4808dd0f30d49662#npm:5.59.16"],\
           ["@types/react", "npm:18.3.12"],\
           ["@types/react-copy-to-clipboard", "npm:5.0.7"],\
           ["@types/react-dom", "npm:18.3.1"],\

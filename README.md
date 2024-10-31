@@ -15,6 +15,7 @@
 - 캐러셀 : `swiper`을 사용한 이미지 슬라이드 구현
 - 캘린더 : `react-day-picker`를 사용해 캘린더 구현
 - 지도 : Kakao 지도 API 사용한 지도 구현
+- 데이터 페칭 : @tanstack/react-query
 
 ## 최적화 적용
 
