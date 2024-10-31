@@ -18,10 +18,14 @@
 
 ## 최적화 적용
 
-FCP (First Contentful Paint) 3.7초 → 1.6초
-LCP (Largest Contentful Paint) 8.3초 → 5.6초
-Speed Index 3.7초 → 1.9초
+<b>Lighthouse 측정 결과 개선</b>
+
+FCP (First Contentful Paint) 3.7초 → `1.6초`
+LCP (Largest Contentful Paint) 8.3초 → `5.6초`
+Speed Index 3.7초 → `1.9초`
 
 - 폰트 : 프로젝트 내 폰트를 탑재, `woff2`>`woff`>`truetype` 적용으로 최적화 적용
+  Subset을 사용하여 불필요한 폰트 제거로 용량 최적화
+  `font-display: fallback;` 속성을 사용하여 웹폰트 로딩 시 발생할 수 있는 문제를 해결하고 사용자 경험을 개선
 - 비디오 : `webm`과 `mp4`를 사용한 video 최적화 적용
 - 이미지 : `picture`를 사용한 `webp`와 `jpg`확장자 호환성 확보 및 최적화 적용, cdn서비스를 이용해 성능 개선
